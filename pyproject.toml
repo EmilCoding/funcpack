@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "funcpack"
+version = "0.1.0"
+description = "Tools for composing function and piping"
+authors = ["Emil <elboesen@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "flake8"
+flake8 = "^7.0.0"
+mypy = "^1.9.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
